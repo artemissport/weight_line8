@@ -219,15 +219,16 @@
             }
             
             .header {
-                padding: 40px 20px;
+                padding: 60px 20px;
+                min-height: 300px;
             }
             
             .header h1 {
-                font-size: 1.8em;
+                font-size: 2em;
             }
             
             .header .subtitle {
-                font-size: 1.1em;
+                font-size: 1.15em;
             }
             
             .content {
@@ -276,12 +277,18 @@
         }
         
         @media (max-width: 480px) {
+            .header {
+                min-height: 250px;
+                padding: 40px 15px;
+            }
+            
             .header h1 {
-                font-size: 1.6em;
+                font-size: 1.7em;
+                line-height: 1.3;
             }
             
             .header .subtitle {
-                font-size: 1em;
+                font-size: 1.05em;
             }
             
             .content p {
@@ -328,13 +335,17 @@
     <div class="container">
         <header class="header fade-in">
             <h1>從「差點破百」到「瘦得下、維持得住、活得好」</h1>
-            <p class="subtitle">「我在找的，不是拼命熬過去的方法，而是身心都能持續配合的課程。」</p>
+            <p class="subtitle">美美的健康減重故事</p>
         </header>
         
         <!-- 請將您的圖片命名為 meimei-story.jpg 並放在同一資料夾 -->
         <img src="meimei-story.jpg" alt="美美的減重故事" class="story-image fade-in">
         
         <main class="content fade-in">
+            <div class="quote">
+                我在找的，不是拼命熬過去的方法，而是身心都能持續配合的課程。
+            </div>
+            
             <p>這句話，是美美說的。</p>
             
             <p>現在的她，總是笑著說自己是「不誤正業的實習班長」。從第一期學員，一路陪伴到現在成為第七期的班長，但其實我還記得她剛來的時候，眼裡有種疲憊。那種試過太多方法、失敗太多次的疲憊。</p>
